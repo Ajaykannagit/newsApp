@@ -1,4 +1,4 @@
-# 📰 News App
+# 📰 News App 
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-purple?style=for-the-badge&logo=kotlin)
 ![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)
@@ -29,15 +29,33 @@ The app follows the **MVVM (Model-View-ViewModel)** pattern to ensure separation
 
 ```mermaid
 graph TD
-    UI[Fragments/Activities] --> ViewModel
+    UI["Fragments/Activities"] --> ViewModel
     ViewModel --> Repository
-    Repository --> Remote[Retrofit (NewsAPI)]
-    Repository --> Local[Room DB (Caching)]
+    Repository --> Remote["Retrofit (NewsAPI)"]
+    Repository --> Local["Room DB (Caching)"]
 ```
 
 
 
-## 🚀 Installation
+## � Libraries & Tools
+
+| Library | Purpose |
+| :--- | :--- |
+| [**Retrofit2**](https://square.github.io/retrofit/) | A type-safe HTTP client for Android to handle API requests. |
+| [**Room**](https://developer.android.com/training/data-storage/room) | Persistence library provides an abstraction layer over SQLite. |
+| [**Glide**](https://github.com/bumptech/glide) | A fast and efficient open source media management and image loading framework. |
+| [**Coroutines**](https://developer.android.com/kotlin/coroutines) | Concurrency design pattern that you can use on Android to simplify code that executes asynchronously. |
+| [**Navigation**](https://developer.android.com/guide/navigation) | Framework for navigating between 'destinations' within an Android application. |
+| [**Shimmer**](https://facebook.github.io/shimmer-android/) | An Android library that provides an easy way to add a shimmer effect. |
+
+## 🔮 Roadmap (Future Enhancements)
+
+- [ ] **Onboarding Screen**: A professional welcome slider for new users.
+- [ ] **Search History**: Save recent searches for quick access.
+- [ ] **Offline Banner**: Dedicated status indicator for connectivity loss.
+- [ ] **Dark Mode**: Full system-wide dark theme support.
+
+## �🚀 Installation
 
 1.  Clone the repository:
     ```bash
@@ -51,7 +69,12 @@ graph TD
 4.  Build and Run.
 
 ## 🤝 Contribution
-Contributions are welcome! Star the repo if you like it. ⭐
+Contributions are welcome! Please fork this repository and contribute back using pull requests.
+
+Any contributions you make are **greatly appreciated**.
 
 ---
-*Built with ❤️ by **Ajay kanna A***
+<div align="center">
+    <b>Built with ❤️ by <a href="https://github.com/Ajaykannagit">Ajay kanna A</a></b><br>
+    <i>Intern at Technook</i>
+</div>
