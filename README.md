@@ -1,35 +1,45 @@
-# 📰 News App (Advanced Edition)
+# 📰 News App
 
-> **Developed during the internship at Technook** 🚀
+![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-purple?style=for-the-badge&logo=kotlin)
+![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)
+![Architecture](https://img.shields.io/badge/Architecture-MVVM-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
 
-A modern, feature-rich News Application built with Android (Kotlin) and MVVM Architecture. This app provides real-time news updates across various categories with a premium, lively user interface.
+> 🚀 **Proudly developed during the internship at Technook** 
 
-## ✨ Features
+A state-of-the-art **News Application** crafted with modern Android development practices. This app delivers a premium user experience with real-time updates, offline caching, and a stunning "Glassmorphism" inspired UI.
 
-- **🔥 Top Headlines**: Get the latest breaking news from around the world.
-- **📑 Categories**: Browse news by Business, Technology, specific interests, and more.
-- **✨ Unique Experiences**:
-    - **Smart Reading Time**: Know exactly how long an article takes to read (e.g., "3 min read").
-    - **Developer Badge**: Exclusive "Technook Intern" Gold Badge in About screen.
-    - **Gradient Aesthetics**: Premium visual experience.
-- **🔍 Search**: Instantly find articles on any topic.
-- **💖 Favourites**: Bookmark articles to read them later offline.
-- **⚡ Shimmer Loading**: Smooth loading animations for a premium feel.
-- **🔄 Swipe-to-Refresh**: Pull down to update the news feed instantly.
-- **🚀 WebView Integration**: Read full articles seamlessly within the app.
-- **🔗 Share**: Share interesting articles with friends and family.
+## ✨ Key Features
 
-## 🛠 Tech Stack
+### 🌟 Unique "Wow" Factors
+- **🥇 Developer Badge**: A Gold Gradient Badge in the *About* screen recognizing the Technook Internship.
+- **⏱️ Smart Reading Time**: AI-inspired logic calculating estimated reading time for every article.
+- **🎨 Gradient Aesthetics**: A visual treat with Gold & Purple gradients.
 
-- **Language**: Kotlin
-- **Architecture**: MVVM (Model-View-ViewModel)
-- **Networking**: Retrofit2 + Gson
-- **Image Loading**: Glide
-- **Database**: Room Database
-- **UI Components**: Material Design 3, ViewBinding, Navigation Component
-- **Asynchronous**: Coroutines + Flow
+### � Core Functionality
+- **Top Headlines**: Breaking news from 100+ sources.
+- **Categories**: Filter by Business, Tech, Health, and more.
+- **Search**: Powerful search engine for topics of interest.
+- **Offline Mode**: Save articles to Favourites (Room Database).
+- **Immersive Reading**: Built-in WebView with sharing capabilities.
 
+## 🏗️ Architecture
 
+The app follows the **MVVM (Model-View-ViewModel)** pattern to ensure separation of concerns and testability.
+
+```mermaid
+graph TD
+    UI[Fragments/Activities] --> ViewModel
+    ViewModel --> Repository
+    Repository --> Remote[Retrofit (NewsAPI)]
+    Repository --> Local[Room DB (Caching)]
+```
+
+## 📸 Screenshots
+
+| **Headlines** | **Search** | **Article** |
+|:---:|:---:|:---:|
+| <img src="https://via.placeholder.com/150" width="200"/> | <img src="https://via.placeholder.com/150" width="200"/> | <img src="https://via.placeholder.com/150" width="200"/> |
 
 ## 🚀 Installation
 
@@ -42,11 +52,10 @@ A modern, feature-rich News Application built with Android (Kotlin) and MVVM Arc
     ```properties
     apiKey=YOUR_NEWSAPI_KEY
     ```
-4.  Build and Run the app.
+4.  Build and Run.
 
 ## 🤝 Contribution
-
-Feel free to fork the repository and submit a Pull Request!
+Contributions are welcome! Star the repo if you like it. ⭐
 
 ---
-*Built with ❤️ by Ajay kanna A*
+*Built with ❤️ by **Ajay kanna A***
