@@ -35,11 +35,7 @@ graph TD
     Repository --> Local[Room DB (Caching)]
 ```
 
-## 📸 Screenshots
 
-| **Headlines** | **Search** | **Article** |
-|:---:|:---:|:---:|
-| <img src="https://via.placeholder.com/150" width="200"/> | <img src="https://via.placeholder.com/150" width="200"/> | <img src="https://via.placeholder.com/150" width="200"/> |
 
 ## 🚀 Installation
 
