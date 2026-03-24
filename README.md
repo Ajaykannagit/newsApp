@@ -7,7 +7,7 @@
 
 > 🚀 **Proudly developed during the internship at Technook** 
 
-A state-of-the-art **News Application** crafted with modern Android development practices. This app delivers a premium user experience with real-time updates, offline caching, and a stunning "Glassmorphism" inspired UI.
+A state-of-the-art **News Application** crafted with modern Android development practices. This app delivers a premium user experience with real-time updates, offline caching, and a stunning "Glassmorphism" inspired UI..
 
 ## ✨ Key Features
 
